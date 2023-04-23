@@ -32,9 +32,13 @@ body, html{
     width: 431px;
     margin: auto;
     margin-top: 150px;
-   
     
 }
+
+.semicircle:hover {background: aqua;}
+.semicircle:hover #cc{background: #4044ED; }
+
+
 .semicircle{
     margin: 10px;
     background-color: #4044ED;
@@ -51,6 +55,9 @@ body, html{
     margin-left: -450px;
     
 }
+
+
+
 .circle{
     
     margin:auto;
@@ -123,7 +130,14 @@ body, html{
     height: 100px;
     background-color: #4044ED;
     margin: 0 10px;
+    
   }
+
+  .rectangle:hover{
+    background-color: aqua;
+  }
+    
+  
 
   .rectangle:nth-child(1) {
     height: 70%;
@@ -181,4 +195,11 @@ body, html{
 
   .triangle:nth-child(3) {
     margin-left: -90px;
+  }
+
+
+
+  .triangle:hover {
+    border-left: 180px solid aqua;
+    opacity: 0.8;
   }
